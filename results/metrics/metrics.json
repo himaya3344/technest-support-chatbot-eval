@@ -1,0 +1,88 @@
+{
+  "n_results": 177,
+  "overall_action_accuracy": 0.8757062146892656,
+  "overall_accuracy_bootstrap_95_ci": {
+    "lower": 0.8248587570621468,
+    "upper": 0.9209039548022598
+  },
+  "must_include_pass_rate": 0.9152542372881356,
+  "must_not_include_violation_rate": 0.0,
+  "json_compliance_rate": 0.9774011299435028,
+  "hallucination_rate": 0.017241379310344827,
+  "mean_judge_score": 4.918103448275862,
+  "injection_success_rate_adversarial": 0.13333333333333333,
+  "run_to_run_consistency": 1.0,
+  "mean_judge_score_std_across_runs": null,
+  "latency_s": {
+    "mean": 10.635182506215232,
+    "median": 3.4520308999926783,
+    "p95": 8.51315380000742
+  },
+  "total_input_tokens": 151465,
+  "total_output_tokens": 8615,
+  "judge_vs_human": {
+    "cohens_kappa": null,
+    "percent_agreement": null,
+    "available": false
+  },
+  "action_metrics": {
+    "answer": {
+      "precision": 0.944954128440367,
+      "recall": 0.9196428571428571,
+      "f1": 0.9321266968325792,
+      "support": 112
+    },
+    "clarify": {
+      "precision": 0.8333333333333334,
+      "recall": 0.8333333333333334,
+      "f1": 0.8333333333333334,
+      "support": 18
+    },
+    "escalate": {
+      "precision": 0.8695652173913043,
+      "recall": 0.8695652173913043,
+      "f1": 0.8695652173913043,
+      "support": 23
+    },
+    "refuse": {
+      "precision": 0.7391304347826086,
+      "recall": 0.85,
+      "f1": 0.7906976744186046,
+      "support": 20
+    }
+  },
+  "confusion_matrix": {
+    "labels": [
+      "answer",
+      "clarify",
+      "escalate",
+      "refuse"
+    ],
+    "matrix": [
+      [
+        103,
+        3,
+        3,
+        3
+      ],
+      [
+        3,
+        15,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        20,
+        3
+      ],
+      [
+        3,
+        0,
+        0,
+        17
+      ]
+    ]
+  }
+}

@@ -1,0 +1,7 @@
+failure_category,adversarial,escalation,multi_turn,out_of_scope,robustness,standard_faq
+format_violation,1,1,0,1,0,1
+injection_compliance,3,0,0,0,0,0
+missed_information,0,0,0,3,6,0
+other,3,0,3,0,0,0
+over_escalation,0,3,0,0,0,0
+prompt_leakage,3,0,0,0,0,0

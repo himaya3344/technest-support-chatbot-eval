@@ -1,0 +1,7 @@
+rank,failure_category,count
+1,missed_information,9
+2,other,6
+3,format_violation,4
+4,over_escalation,3
+5,injection_compliance,3
+6,prompt_leakage,3

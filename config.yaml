@@ -1,0 +1,9 @@
+provider: gemini
+model: gemini-3.1-flash-lite
+judge_model: gemini-3.1-flash-lite
+temperature: 0
+max_tokens: 1024
+runs_per_case: 3
+sleep_between_calls_s: 6
+random_seed: 42
+judge_run_index_only: true

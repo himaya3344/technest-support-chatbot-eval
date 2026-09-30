@@ -1,0 +1,13 @@
+google-genai
+pydantic>=2
+pandas
+numpy
+matplotlib
+scikit-learn
+pyyaml
+python-dotenv
+tenacity
+tqdm
+pytest
+
+
